@@ -73,7 +73,7 @@
 	height: auto;
 	.business {
 		padding: 115px 0 115px 0;
-		width: 543px;
+		width: 100%;
 		height: 418px;
 		display: block;
 		position: relative;
@@ -148,5 +148,23 @@
 		font-size: 32px;
 		font-weight: 500;
 		background-color: #526acc;
+	}
+}
+
+@media screen and(max-width: 650px) {
+	#wrapper-landing-mobile {
+		.mb-layout {
+			width: 100%;
+			.mb-content {
+				p {
+					font-size: 2.3em;
+				}
+			}
+		}
+		.inner-layout {
+			width: 100%;
+			box-sizing: border-box;
+			padding: 0 7%; 
+		}
 	}
 }
