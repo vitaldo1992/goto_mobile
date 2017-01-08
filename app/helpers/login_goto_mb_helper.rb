@@ -1,0 +1,2 @@
+module LoginGotoMbHelper
+end
