@@ -1,27 +1,24 @@
-#wrapper-landing-mobile {
+#mb-wrapper-landing {
 	position: absolute;
 	display: block;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: auto;
-	min-height: 100%;
-	.mb-layout {
+	.mb-wrap {
 		position: relative;
 		display: block;
-		height: auto;
-		width: 650px;
+		width: calc(100% - 180px);
 		z-index: 100;
 		margin: auto;
-		box-sizing: border-box;
-		padding: 214px 0 121px 0;
-		min-height: 1039px;
+		padding: 428px 0 242px 0;
+		height: 100%;
 	};
 	.mb-background-image {
 		display: block;
 		height: auto;
 		width: 100%;
-		min-height: 100%;
+		height: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -46,17 +43,17 @@
 	}
 }
 
-#wrapper-landing-mobile .mb-layout .mb-header {
+#mb-wrapper-landing .mb-wrap .mb-header {
 	width: 100%;
-	height: 111px;
+	height: 222px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	display: block;
 	.img-holder {
-		width: 221px;
-		height: 80px;
-		margin: 31px auto auto auto;
+		width: 442px;
+		height: 160px;
+		margin: 62px auto auto auto;
 		img {
 			width: inherit;
 			height: auto;
@@ -64,23 +61,22 @@
 	}
 }
 
-.inner-layout {
-	width: 545px;
+.inner-wrap {
+	width: 100%;
 	display: block;
 	margin: auto;
 	position: relative;
 }
 
-#wrapper-landing-mobile .mb-layout .mb-content {
+#mb-wrapper-landing .mb-wrap .mb-content {
 	height: auto;
 	.business {
-		padding: 115px 0 115px 0;
-		width: 100%;
-		height: 418px;
+		padding: 230px 0 230px 0;
 		display: block;
 		position: relative;
-		box-sizing: border-box;
 		img {
+			width: 32px;
+			height: 32px;
 			position: absolute;
 			display: block;
 		};
@@ -100,42 +96,42 @@
 			text-align: left;
 			display: block;
 			position: relative;
-			font-family: "GothamPro";
-			font-size: 2.7825em;
-			line-height: 1.60816em;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-size: 4.3em;
+			line-height: 1.4em;
 			color: #000000;
 			font-weight: 400;
 			span {
-				font-family: "GothamPro";
+				font-family: 'Roboto Condensed', sans-serif;
 				font-size: 1em;
-				line-height: 1.40816em;
+				line-height: 1.4em;
 				color: #ff9000;
 				font-weight: 700;
 			}
-		} 
+		}
 	}
 }
 
-#wrapper-landing-mobile .mb-layout .mb-content {
+#mb-wrapper-landing .mb-wrap .mb-content {
 	.about-project {
-		padding: 79px 0 119px 0;
+		padding: 160px 0 238px 0;
 		text-align: left;
 		display: block;
 		color: #000000;
-		font-family: 'Roboto', sans-serif;
-		p {	
-			font-size: 1.75em;
+		font-family: 'Roboto Condensed', sans-serif;
+		p {
+			font-size: 2.9em;
 			line-height: 1.86;
 			font-weight: 400;
 		}
 	}
 }
 
-#wrapper-landing-mobile .mb-footer {
+#mb-wrapper-landing .mb-footer {
 	display: block;
 	position: absolute;
 	width: 100%;
-	height: 121px;
+	height: 242px;
 	text-align: center;
 	bottom: 0;
 	z-index: 100;
@@ -144,30 +140,28 @@
 		display: block;
 		margin: auto;
 		width: 100%;
-		height: 121px;
-		line-height: 121px;
+		height: 242px;
+		line-height: 242px;
 		color: #ffffff;
-		font-family: 'Roboto', sans-serif;
-		font-size: 32px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 4em;
 		font-weight: 500;
 		background-color: #526acc;
 	}
 }
 
-@media screen and(max-width: 650px) {
-	#wrapper-landing-mobile {
-		.mb-layout {
+/* @media (min-width: 320px) and (max-width: 650px) {
+	#mb-wrapper-landing {
+		.mb-wrap {
 			width: 100%;
 			.mb-content {
-				p {
-					font-size: 2.3em;
-				}
 			}
 		}
-		.inner-layout {
+		.inner-wrap {
 			width: 100%;
 			box-sizing: border-box;
-			padding: 0 7%; 
+			// padding: 0 7%;
+			padding: 0 3%;
 		}
 	}
-}
+} */
