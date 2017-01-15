@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
 
+  get 'password_verify_mb' => 'password_verify_mb#index'
 
+  get 'wallets_mb' => 'wallets_mb#index'
+
+  get 'main_mb' => 'main_mb#index'
+
+  get 'form_send_money_mb' => 'form_send_money_mb#index'
 
   get 'login_goto_mb' => 'login_goto_mb#index'
 

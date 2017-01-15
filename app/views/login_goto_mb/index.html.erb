@@ -1,2 +1,37 @@
-<h1>LoginGotoMb#index</h1>
-<p>Find me in app/views/login_goto_mb/index.html.erb</p>
+<div id="mb-wrapper-login">
+	<div class="mb-wrap">
+		<div class="mb-header">
+			<div class="img-holder">
+				<%= image_tag 'land-logo.png'%>
+			</div>
+		</div>
+		<div class="mb-content">
+			<form method="post" action="http://google.com">
+				<div class="input-container">
+					<input required type="text" class="input-item" name="first_name" autocomplete="off"/>
+					<span class="icon_container">
+						<span class="input-item-icon"></span>
+					</span>
+					<span class="bar">
+						<span class="bar-span"></span>
+					</span>
+					<label>Логин / E-Mail</label>
+				</div>
+				<div class="input-container">
+					<input required type="password" class="input-item pass" autocomplete="off"/>
+					<span class="icon_container">
+						<span class="input-item-icon"></span>
+						<span class="show-password-icon"></span>
+					</span>
+					<span class="bar">
+						<span class="bar-span"></span>
+					</span>
+					<label>Пароль</label>
+				</div>
+				<input type="button" class="next" value="Войти" id="target"/>
+				<a class="forgot-password" href="#">Забыли пароль?</a>
+			</form>
+		</div>
+	</div>
+	<div class="mb-background-color"></div>
+</div>
