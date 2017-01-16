@@ -1,4 +1,4 @@
-#wallets-mb-wrap {
+#accounts-mb-wrap {
 	position: absolute;
 	display: block;
 	top: 0;
@@ -29,7 +29,7 @@
 	}
 }
 
-#wallets-mb-wrap .mb-wrap .mb-content {
+#accounts-mb-wrap .mb-wrap .mb-content {
 	height: auto;
 	text-align: center;
 	div.balance {
@@ -148,7 +148,7 @@
 	}
 }
 
-#wallets-mb-wrap .mb-footer {
+#accounts-mb-wrap .mb-footer {
 	display: block;
 	position: absolute;
 	width: 100%;
@@ -173,7 +173,7 @@
 }
 
 @media (min-height: 481px) {
-	#wallets-mb-wrap {
+	#accounts-mb-wrap {
 		height: 100%;
 		min-height: 100%;
 		.mb-wrap {

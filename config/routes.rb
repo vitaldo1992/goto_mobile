@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'accounts/form_send'
+
+  get 'accounts/main'
+
+  get 'accounts/password_verify'
+
+  get 'accounts/wallets'
+
+  get 'statics/landing'
+
   get 'password_verify_mb' => 'password_verify_mb#index'
 
   get 'wallets_mb' => 'wallets_mb#index'

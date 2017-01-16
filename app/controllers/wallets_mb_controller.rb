@@ -1,4 +1,5 @@
 class WalletsMbController < ApplicationController
-  def index
-  end
+	layout 'account'
+	def index
+	end
 end
