@@ -1,3 +1,12 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+$(document).on('turbolinks:load', function() {
+	$(".mb-burger").click(function(){
+		$(this).toggleClass("is-active");
+		$('.mb-menu').toggleClass("active");
+	});
+
+	$('.mb-menu li a').click(function(){
+		var path = $(this).attr('href');
+		$(this).addClass("active");
+		Turbolinks.clearCache();
+	});
+});
