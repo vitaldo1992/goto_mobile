@@ -1,2 +1,0 @@
-module PasswordVerifyMbHelper
-end

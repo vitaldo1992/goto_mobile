@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
 
-  get 'accounts/form_send'
+  get 'accounts/form_send' => 'password_verify'
 
-  get 'accounts/main'
+  get 'accounts/main' => 'main'
 
-  get 'accounts/password_verify'
+  get 'accounts/password_verify' => 'form_send'
 
-  get 'accounts/wallets'
+  get 'accounts/wallets' => 'wallets'
 
   get 'statics/landing'
 
