@@ -77,7 +77,7 @@
 	transform: translateY(-7px);
 }
 
-.mb-menu {
+.mb-sidebar {
 	-webkit-transition: left 0.3s ease-in-out;
 	-o-transition: left 0.3s ease-in-out;
 	-ms-transition: left 0.3s ease-in-out;
@@ -134,11 +134,11 @@
 	}
 }
 
-.mb-menu.active {
+.mb-sidebar.active {
 	left: 0;
 }
 
-.mb-menu:before {
+.mb-sidebar:before {
 	content: '';
 	position: absolute;
 	top: 0;

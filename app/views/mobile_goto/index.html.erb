@@ -2,9 +2,9 @@
 	<div class="pages-wrapper">
 		<%= link_to 'landing_goto_mobile', landing_goto_mb_path %>
 		<%= link_to 'login_goto_mobile', login_goto_mb_path %>
-		<%= link_to 'form_send_money_mb', form_send_money_mb_path %>
-		<%= link_to 'main_mb', main_mb_path %>
-		<%= link_to 'wallets_mb', wallets_mb_path %>
-		<%= link_to 'password_verify_mb', password_verify_mb_path %>
+		<%= link_to 'form_send', :controller => 'accounts', :action => 'form_send' %>
+		<%= link_to  'main', :controller => 'accounts', :action => 'main' %>
+		<%= link_to 'wallets', :controller => 'accounts', :action => 'wallets' %>
+		<%= link_to 'password_verify', :controller => 'accounts', :action => 'password_verify' %>
 	</div>
 </div>
