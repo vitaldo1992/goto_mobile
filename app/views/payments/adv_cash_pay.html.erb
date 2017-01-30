@@ -1,0 +1,10 @@
+<form id="adv_pay" method="post" style="display:none;" action="https://wallet.advcash.com/sci/">
+   <input type="text" name="ac_account_email" value="<%=@transaction.payment_email%>" />
+   <input type="text" name="ac_sci_name" value="<%=@transaction.payment_system_username%>" />
+   <input type="text" name="ac_amount" value="<%=@transaction.amount/100.0%>" />
+   <input type="text" name="ac_currency" value="USD" />
+   <input type="text" name="ac_order_id" value="<%=@transaction.hashed_id%>" />
+   <input type="text" name="ac_sign" value="<%=@transaction.ac_sign%>" />
+   <input type="submit" />
+</form> 
+<script type="text/javascript">$("#adv_pay").submit()</script>
