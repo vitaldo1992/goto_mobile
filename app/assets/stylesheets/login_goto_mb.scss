@@ -20,8 +20,8 @@
 	};
 	.android-wrap {
 
-		// margin: auto;
-		// padding: 128px 25px 60px 25px;
+		/* margin: auto;*/
+		/* padding: 128px 25px 60px 25px;*/
 	};
 	.mb-background-color {
 		display: block;
@@ -196,8 +196,11 @@
 	transform: scaleX(0);
 	-webkit-transform: scaleX(0);
 	content: "";
-	// border-bottom: solid 2px #0093ee;
+	/* border-bottom: solid 2px #0093ee;*/
+	-webkit-transition: -webkit-transform 0.25s linear;
+	transition: -webkit-transform 0.25s linear;
 	transition: transform 0.25s linear;
+	transition: transform 0.25s linear, -webkit-transform 0.25s linear;
 	-o-transition: -o-transform 0.25s linear;
 	-ms-transition: -ms-transform 0.25s linear;
 	-moz-transition: -moz-transform 0.25s linear;
@@ -289,4 +292,3 @@
 	color: #292929;
 	text-decoration: none;
 }
-
