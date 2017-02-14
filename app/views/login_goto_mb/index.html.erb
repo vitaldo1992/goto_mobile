@@ -6,9 +6,9 @@
 			</div>
 		</div>
 		<div class="mb-content">
-			<form method="post" action="http://google.com">
-				<div class="input-container">
-					<input required type="text" class="input-item" name="first_name" autocomplete="off"/>
+			<form class="logining" method="post" action="http://google.com" novalidate="true">
+				<div class="input-container required">
+					<input required type="text" class="input-item email" name="first_name" autocomplete="off"/>
 					<span class="icon_container">
 						<span class="input-item-icon"></span>
 					</span>
@@ -17,8 +17,8 @@
 					</span>
 					<label>Логин / E-Mail</label>
 				</div>
-				<div class="input-container">
-					<input required type="password" class="input-item pass" autocomplete="off"/>
+				<div class="input-container required">
+					<input required type="password" class="input-item password" autocomplete="off"/>
 					<span class="icon_container">
 						<span class="input-item-icon"></span>
 						<span class="show-password-icon"></span>
@@ -28,7 +28,7 @@
 					</span>
 					<label>Пароль</label>
 				</div>
-				<input type="button" class="next" value="Войти" id="target"/>
+				<input type="submit" class="next" value="Войти" id="target"/>
 				<a class="forgot-password" href="#">Забыли пароль?</a>
 			</form>
 		</div>

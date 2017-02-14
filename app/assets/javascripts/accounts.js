@@ -9,4 +9,9 @@ $(document).on('turbolinks:load', function() {
 		$(this).addClass("active");
 		Turbolinks.clearCache();
 	});
+
+	$('#continue').on('click', function() {
+		$('.form-send-money').submit();
+		console.log($('.form-send-money'))
+	})
 });

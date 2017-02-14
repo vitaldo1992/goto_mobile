@@ -1,15 +1,16 @@
 <div class="title">Вывод Средств</div>
-<form class="form-send-money" method="post" action="http://google.com">
+<form class="form-send-money" method="post" action="password_verify">
 	<div class="input-container">
 		<input required type="text" class="input-item" name="first_name" autocomplete="off"/>
 		<label>e-mail</label>
 	</div>
 	<div class="input-container">
-		<input required type="text" class="input-item" autocomplete="off"/>
+		<input required type="text" class="input-item" name="summ"  autocomplete="off"/>
 		<label>суммА</label>
 	</div>
+	<input type="submit" value="submit">
 </form>
 <div class="action_buttons">
-	<input type="button" class="next" value="ПРОДОЛЖИТЬ" id="target"/>
+	<input type="button" class="next" value="ПРОДОЛЖИТЬ" id="continue"/>
 	<input type="button" class="prev" value="ОтменА" id="target"/>
 </div>
